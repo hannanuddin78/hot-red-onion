@@ -1,38 +1,66 @@
-.App {
+.header-nav {
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+.header-logo {
+  margin-left: 140px;
+}
+.header-logo img {
+  width: 160px;
+  height: 45px;
+}
+.header-login {
+  float: right;
+  margin-right: 50px;
+}
+.bg-img {
+  background-image: url(./image/bannerbackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fcf4e0;
+}
+.header-footer-area{
+  margin: 0 auto;
+  padding-top: 13%;
+  padding-bottom: 13%;
+}
+.Header-footer-form{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-footer-btn {
+  border-radius: 20px !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer-top-card-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.footer-container{
+  background-color: black;
   color: white;
+  padding-left: 140px !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+.footer-logo img{
+  width: 160px;
+  height: 45px;
+}
+.footer-top-right ul li{
+  list-style: none;
+}
+.footer-bottom{
+  padding-top: 50px;
+}
+.footer-bootom-right{
+  float: right;
+  padding-right: 50px;
+}
+.footer-bootom-right ul{
+  display: inline;
+}
+.footer-bootom-right ul li{
+  display: inline-block;
+  margin-right: 30px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
