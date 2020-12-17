@@ -30,9 +30,35 @@
 .header-footer-btn {
   border-radius: 20px !important;
 }
+.food-shift-list{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.food-shift-list ul{
+  display: inline;
+}
+.food-shift-list ul li{
+  display: inline-block;
+  margin-right: 30px;
+}
 .footer-top-card-container{
   padding-top: 50px;
   padding-bottom: 50px;
+}
+.MenuItemFood-container{
+  padding-bottom: 20px;
+}
+.itemFood-container{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.itemFood-img-container img{    
+  max-width: 100%;
+  height: auto;
+}
+.MenuItemFood-card-body{
+  text-align: center;
 }
 .footer-container{
   background-color: black;
